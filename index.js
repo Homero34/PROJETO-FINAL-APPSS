@@ -10,7 +10,7 @@ import { loadAsync } from 'expo-font';
 
 // Configuração do Firebase (opcional)
 import { initializeApp } from 'firebase/app';
-import { firebaseConfig } from './firebaseConfig';
+import { firebaseConfig } from './src/firebaseConfig';
 
 // Inicializa o Firebase (se estiver usando)
 initializeApp(firebaseConfig);
