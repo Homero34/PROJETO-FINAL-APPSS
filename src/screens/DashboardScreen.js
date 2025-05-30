@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, TouchableOpacity, ActivityIndicator, StyleSheet } from 'react-native';
-import useApi from '../hooks/useApi';
+import {useAuth} from '../hooks/useAuth';
 import { db } from '../firebaseConfig';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 

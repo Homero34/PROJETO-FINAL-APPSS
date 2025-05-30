@@ -12,8 +12,7 @@ import { loadAsync } from 'expo-font';
 import { initializeApp } from 'firebase/app';
 import { firebaseConfig } from './src/firebaseConfig';
 
-// Inicializa o Firebase (se estiver usando)
-initializeApp(firebaseConfig);
+
 
 function Main() {
   const [fontsLoaded, setFontsLoaded] = useState(false);
