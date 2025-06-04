@@ -17,7 +17,21 @@ const CustomDrawerContent = ({ navigation }) => {
       >
         <Text>Home</Text>
       </TouchableOpacity>
-      
+
+      <TouchableOpacity 
+        style={styles.drawerItem}
+        onPress={() => navigation.navigate('Register')}
+      >
+        <Text>Register</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity 
+        style={styles.drawerItem}
+        onPress={() => navigation.navigate('Login')}
+      >
+        <Text>Login</Text>
+      </TouchableOpacity>
+
       <TouchableOpacity 
         style={styles.drawerItem}
         onPress={() => navigation.navigate('Profile')}
